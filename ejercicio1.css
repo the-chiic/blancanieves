@@ -1,0 +1,12 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1280px;
+    border: 10px solid;
+    height: 800px;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+/*Espacio útil Horizontal: 1280px (total ancho) - 2*10px (bordes) = 1260px de ancho útil*/
+/*Espacio útil Vertical: 800px (total alto) - 2*10px (bordes) = 780px de ancho útil*/
+
