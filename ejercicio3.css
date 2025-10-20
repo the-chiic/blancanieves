@@ -1,0 +1,20 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1280px;
+    border: 10px solid;
+    height: 800px;
+    margin: 0 0;
+    background-color: beige;
+}
+
+.camas{
+    display: inline-block;
+    width: 100px;
+    height: 300px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    margin-right: 70px;
+}
+
+/*Usamos display: inline-block para poder alinearlos todos juntos y que se comporten como bloque los span y le metemos un margin right
+de separación entre cada cama*/
