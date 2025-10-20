@@ -1,0 +1,37 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1280px;
+    border: 10px solid;
+    height: 800px;
+    margin: 0 0;
+    background-color: beige;
+}
+
+.camas{
+    display: inline-block;
+    width: 100px;
+    height: 300px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    padding: 2px 10px 0px 10px;
+    margin: 40px 20px;
+}
+
+#contenedor-gruñon {
+    display: inline-block;
+    width: 1100px;                          /*Si agrandamos se va hacia abajo porque no nos cabe y si lo hicieramos mas chico los 20px respecto al borde derecho aumentarían*/
+    height: 380px;
+    position: relative;
+    vertical-align: top;                    /*Se asegura de alinearse por arriba*/
+}
+
+#gruñon{
+    display: inline-block;
+    width: 100px;
+    height: 300px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    position: absolute;
+    top: 40px;                              /*top= ( altura del contenedor(380) - altura de la cama(300) ) / 2*/
+    right: 20px;
+}
