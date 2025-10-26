@@ -1,0 +1,34 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1280px;
+    border: 10px solid;
+    height: 800px;
+    margin: 0 0;
+    background-color: beige;
+}
+
+#filaLinea{
+    display: inline-block;
+    width: 600px;
+    height: 380px;
+    background-color: brown;
+    border: 2px solid rgb(100, 28, 28);
+}
+
+#filaCaja{
+    display: inline-block;
+    width: 600px;
+    height: 380px;
+    background-color: rgb(149, 122, 122);
+    border: 2px solid rgb(78, 58, 58);
+}
+
+.camas{
+    float: right;
+    width: 100px;
+    height: 300px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    padding: 2px 10px 0px 10px;
+    margin: 40px 0px;
+}

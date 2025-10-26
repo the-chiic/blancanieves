@@ -1,0 +1,44 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1280px;
+    border: 10px solid;
+    height: 800px;
+    margin: 0 0;
+    background-color: beige;
+}
+
+#filaLinea{
+    display: inline-block;
+    background-color: brown;
+    border: 2px solid rgb(100, 28, 28);
+    width: 1091px;
+    height: 380px;
+    position: relative;
+}
+
+#filaCaja{
+    display: inline-block;
+    background-color: rgb(149, 122, 122);
+    border: 2px solid rgb(78, 58, 58);
+}
+
+.camas{
+    display: inline-block;
+    width: 100px;
+    height: 300px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    padding: 2px 10px 0px 10px;
+    margin: 40px 20px;
+}
+
+#gruñon{
+    display: inline-block;
+    width: 100px;
+    height: 300px;
+    background-color: lightblue;
+    border: 2px solid blue;
+    position: absolute;
+    top: 40px;                              /*top= ( altura del contenedor(380) - altura de la cama(300) ) / 2*/
+    right: 20px;
+}

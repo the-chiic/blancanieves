@@ -1,0 +1,24 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 1280px;
+    border: 10px solid;
+    height: 800px;
+    margin: 0 auto;
+    background-color: beige;
+}
+
+span{
+    width: 100px;
+    height: 300px;
+    background-color: lightblue;
+    border: 1px solid blue;
+}
+
+div div{
+    width: 100px;
+    height: 300px;
+    background-color: lightgreen;
+    border: 1px solid green;
+}
+
+/*Solo afecta a los elementos en bloque, los elementos en línea solo ocupan el tamaño de su contenido*/
